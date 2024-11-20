@@ -266,7 +266,7 @@ class UserInterface {
 			UI.setText('chosen-time', '');
 			UI.setText('chosen-time-sublabel', '');
 		}
-		UI.setText('location-name', Settings.activeLocation.NAME);
+		UI.setText('location-name', Settings.activeLocation.NAME.split(" (")[0]);
 		UI.setText('location-body-name', Settings.activeLocation.PARENT.NAME);
 	}
 
